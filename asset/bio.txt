@@ -1,0 +1,5 @@
+Jingwei Huang is currently a Ph.D. Student in the Computer Science Department of Stanford University. He is a member of Stanford Geometric Computing Lab.
+
+Jingwei’s research interests are broad, spanning computer vision, computer graphics, machine learning, and rototics. He is particularly interested in 3D computer vision. His work covers the area of image processing, physical animation, deep learning, texture synthesis, virtual reality and SLAM.
+
+He is advised by Prof. Leonidas Guibas. He was formally advised by Prof. Ron Fedkiw (Stanford), Prof. Wenping Wang (Hongkong Univ.), Dr. Zhili Chen (Adobe Research), and Dr. Stephen Lin (Microsoft Research Asia). He has also been conferred a Ph.D. degree in Mathematics at Beihang University.  
