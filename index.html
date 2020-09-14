@@ -1,472 +1,184 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Xin Wang">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>>
-    <link href="./styles.css?v=4.6.0" rel="stylesheet">
-<title>Xin Wang</title>
-<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<script>
-// Load this when the DOM is ready
-$(function(){
-  // You used .myCarousel here. 
-  // That's the class selector not the id selector,
-  // which is #myCarousel
-  $('#carousel-example-generic').carousel();
-});
-</script>
+    <title>Xin Wang - People @ EECS at UC Berkeley</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-	<div id="container">
-		<div id="main">
-            <div id="menu">
-                <a href="#main">About</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#publications">Publications</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#services">Services</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#work">Experience</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <!-- <a href="#work">Work</a> -->
-            </div>
-			<div id="pic">
-				<img height="200" src="./asset/images/profile_google.jpeg"/>
-			</div>
-			<div id="department">
-				<h1>Xin Wang</h1>
-				<p> I am Xin Wang, a fifth-year Ph.D. candidate in Computer Science at UC Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~trevor/"> Prof.Trevor Darrell</a> and <a href="https://people.eecs.berkeley.edu/~jegonzal/"> Prof. Joseph E. Gonzalez</a>. I am part of the <a href="http://bair.berkeley.edu/">BAIR Lab</a>, <a href="https://rise.cs.berkeley.edu/"> RISE Lab</a>, and <a href="https://deepdrive.berkeley.edu/">BDD Lab</a>.  
-                Prior to UC Berkeley, I obtained my B.S. degree in Computer Science from <a href="http://en.sjtu.edu.cn/"> Shanghai Jiao Tong University </a> in 2015. <br/>
-				</p>
-                <p> My research interest lies in computer vision and learning system designs including dynamic representation 
-                    frameworks for low shot learning, continual learning, efficient inference, interactive data processing and model serving systems.
-				</p>
-<!-- 				<p> Office: 465 <a href="https://goo.gl/maps/U7JiapPCY2x">Soda Hall</a>, Berkeley, CA 94720 <br>
-					Email: xinw [at] eecs [dot] berkeley [dot] edu
-				</p> -->
-                <p> <a href="https://scholar.google.com/citations?user=e9gUdKwAAAAJ&hl=en">Google Scholar</a> 
-                /
-                <a href="https://github.com/xinw1012">Github</a>
-                /
-                <a href="./asset/Xin_CV.pdf">CV</a>
-                /
-                <a href="https://www.linkedin.com/in/xin-wang-aa83a577/">LinkedIn</a>
-                /
-                <a href="https://twitter.com/xinw_ai">Twitter</a>
-                </p>
-			</div>
+    <!-- Navigation bar -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarItems"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div id="Contact">
-            <!-- <h4> Contact </h3> -->
-               <p> &nbsp;&nbsp;&nbsp;<strong>Office</strong>: 8th floor <a href="https://www.berkeley.edu/map?berkeley-way-west">2121 Berkeley Way West</a>, Berkeley, CA 94704 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Email</strong>: xinw [at] eecs [dot] berkeley [dot] edu </p>
-        </div>
-		</div>
-<!--         <div>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are organizing the ICML 2019 <a href="https://sites.google.com/view/hill2019/home">workshop on Human In the Loop Learning</a> on June 14, Long Beach, CA</p></div>  -->
+    <div class="collapse navbar-collapse" id="navbarItems">
+        <!--<ul class="navbar-nav ml-auto">-->
+        <ul class="navbar-nav mx-auto">
 
-<!-- ---------------------- Publications ---------------->
-<div id="publications">
-<h3>Publications</h3>
-
-<div class="paper"><div class="pimg"> <img src='./asset/images/teasers/fsdet.png' width='120px'> </div>
-<div id="wangFSD20" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;Frustratingly Simple Few-Shot Object Detection</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;<strong>Xin Wang*</strong>, Thomas E. Huang*, Trevor Darrell, Joseph E. Gonzalez, Fisher Yu</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;International Conference on Machine Learning (ICML), 2020</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#fsd_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#fsd_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/2003.06957">paper</a>
-<a class="btn btn-primary btn-sm" href="https://github.com/ucbdrive/few-shot-object-detection">code</a>
-</div>
-
-<div class="cards"><div id="fsd_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Detecting rare objects from a few examples is an emerging problem. Prior works show meta-learning is a promising approach. But, fine-tuning techniques have drawn scant attention. We find that fine-tuning only the last layer of existing detectors on rare classes is crucial to the few-shot object detection task. Such a simple approach outperforms the meta-learning methods by roughly 2~20 points on current benchmarks and sometimes even doubles the accuracy of the prior methods. However, the high variance in the few samples often leads to the unreliability of existing benchmarks. We revise the evaluation protocols by sampling multiple groups of training examples to obtain stable comparisons and build new benchmarks based on three datasets: PASCAL VOC, COCO and LVIS. Again, our fine-tuning approach establishes a new state of the art on the revised benchmarks. The code as well as the pretrained models are available at this https URL.
-</code></pre></div></div>
-
-<div id="fsd_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@article{wang2020few,
-    title={Frustratingly Simple Few-Shot Object Detection},
-    author={Wang, Xin and Huang, Thomas E. and  Darrell, Trevor and Gonzalez, Joseph E and Yu, Fisher}
-    booktitle = {International Conference on Machine Learning (ICML)},
-    month = {July},
-    year = {2020}
-}
-</code></pre></div></div>
-
-</div></div></div>
-
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/tds.jpg' width='120px'> </div>  
-<div id="wangTDS19" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;Task-Aware Feature Generation for Zero-Shot Compositional Learning</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;<strong>Xin Wang</strong>, Fisher Yu, Trevor Darrell, Joseph E. Gonzalez</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;arXiv 2019</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#tfg_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#tfg_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1906.04854">paper</a> 
-</div>
-
-<div class="cards"><div id="tfg_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Visual concepts (e.g., red apple, big elephant) are often semantically compositional and each element of the compositions can be reused to construct novel concepts (e.g., red elephant). Compositional feature synthesis, which generates image feature distributions exploiting the semantic compositionality, is a promising approach to sample-efficient model generalization. In this work, we propose a task-aware feature generation (TFG) framework for compositional learning, which generates features of novel visual concepts by transferring knowledge from previously seen concepts. These synthetic features are then used to train a classifier to recognize novel concepts in a zero-shot manner. Our novel TFG design injects task-conditioned noise layer-by-layer, producing task-relevant variation at each level. We find the proposed generator design improves classification accuracy and sample efficiency. Our model establishes a new state of the art on three zero-shot compositional learning (ZSCL) benchmarks, outperforming the previous discriminative models by a large margin. Our model improves the performance of the prior arts by over 2x in the generalized ZSCL setting.
-</code></pre></div></div>
-
-<div id="tfg_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@article{wang2019task,
-  title={Task-Aware Feature Generation for Zero-Shot Compositional Learning},
-  author={Wang, Xin and Yu, Fisher and  Darrell, Trevor and Gonzalez, Joseph E}
-  journal={arXiv preprint arXiv:1906.04854},
-  year={2019}
-}
-</code></pre></div></div>
-</div></div></div>
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/bdd100k-512.jpg' width='120px'> </div>
-<div id="yuBDD20" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;Fisher Yu, Haofeng Chen, <strong>Xin Wang</strong>, Wenqi Xian, Yingying Chen, Fangchen Liu, <br>&nbsp;&nbsp;Vashisht Madhavan, Trevor Darrell</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;Computer Vision and Pattern Recognition (CVPR), 2020, oral</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#bdd_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#bdd_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1805.04687">paper</a>
-<a class="btn btn-primary btn-sm" href="https://bdd-data.berkeley.edu/">data</a>
-<a class="btn btn-primary btn-sm" href="https://github.com/ucbdrive/bdd-data">code</a>
-<a class="btn btn-primary btn-sm" href="https://www.scalabel.ai/">Scalabel Labeling Tool</a>
-</div>
-
-<div class="cards"><div id="bdd_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Datasets drive vision progress, yet existing driving datasets are impoverished in terms of visual content and supported tasks to support study multitask learning for autonomous driving. Researchers are usually constrained to study a small set of problems on one dataset, whilereal-world computer vision applications requires performing tasks of various complexities. We construct BDD100K,the largest driving video dataset with 100K videos and 10tasks to evaluate the exciting progress of image recognition algorithms on autonomous driving. The dataset possesses geographic, environmental, and weather diversity, which is useful for training models so that they are less likely to be surprised by new conditions. Based on this diverse dataset, we build a benchmark for heterogeneous multitask learning and study how to solve the tasks together.Our experiments show that we need special training strategies for existing models to perform the heterogeneous tasks. BDD100K opens the door for the future study in this important venue.
-</code></pre></div></div>
-
-<div id="bdd_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{yu2019bdd100k,
-    author = {Yu, Fisher and Chen, Haofeng and Wang, Xin and Xian, Wenqi and Chen, Yingying and Liu, Fangchen and Madhavan, Vashisht and Darrell, Trevor},
-    title = {BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning},
-    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month = {June},
-    year = {2020}
-}
-</code></pre></div></div>
-</div></div></div>
-
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/shape_prop.png' width='120px'> </div>
-<div id="zhouSP2020" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;Learning Saliency Propagation for Semi-Supervised Instance Segmentation</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;Yanzhao Zhou, <strong>Xin Wang</strong>, Jianbin Jiao, Trevor Darrell, Fisher Yu</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;Computer Vision and Pattern Recognition (CVPR), 2020</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#sp_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#sp_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="https://onedrive.live.com/?authkey=%21AF%2DbKAV6aDjfqls&cid=4F961379E4FFC332&id=4F961379E4FFC332%21197&parId=4F961379E4FFC332%21176&o=OneUp">paper</a>
-<a class="btn btn-primary btn-sm" href="https://github.com/ucbdrive/shapeprop">code</a>
-</div>
-
-<div class="cards"><div id="sp_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Instance  segmentation  is  a  challenging  task  for  both modeling and annotation. Due to the high annotation cost, modeling because more difficult due to the limited amount of supervision. We aim to improve the accuracy of the existing instance segmentation models by utilizing a large amount of  detection  supervision.   We  propose  ShapeProp,  which learns to activate the salient regions within the object detection and propagate the areas to the whole instance through an iterative learnable message passing module. ShapeProp can benefit from more bounding box supervision to locate the instances more accurately and utilize the feature activations from the larger number of instances to achieve more accurate segmentation. We extensively evaluate ShapeProp on three datasets (COCO, PASCAL VOC, and BDD100k) with different supervision setups based on both two-stage(Mask R-CNN) and single-stage (RetinaMask) models. The results show our method establishes new states of the art for semi-supervised instance segmentation.
-</code></pre></div></div>
-
-<div id="sp_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{zhou2020learn,
-    author = {Zhou, Yanzhao and Wang, Xin and Jiao, Jianbin and Darrell, Trevor and Yu, Fisher},
-    title = {Learning Saliency Propagation for Semi-Supervised Instance Segmentation},
-    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month = {June},
-    year = {2020}
-}
-</code></pre></div></div>
-</div></div></div>
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/ace.png' width='120px'> </div>  
-<div id="WuACE" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;ACE: Adapting to Changing Environments for Semantic Segmentation</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;Zuxuan Wu, <strong>Xin Wang</strong>, Joseph E. Gonzalez, Tom Goldstein, Larry S. Davis</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;International Conference in Computer Vision (ICCV) 2019</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#ace_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#ace_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="https://arxiv.org/pdf/1904.06268.pdf">paper</a> 
-</div>
-
-<div class="cards"><div id="ace_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Deep neural networks exhibit exceptional accuracy when they are trained and tested on the same data distributions. However, neural classifiers are often extremely brittle when confronted with domain shift---changes in the input distribution that occur over time. We present ACE, a framework for semantic segmentation that dynamically adapts to changing environments over the time. By aligning the distribution of labeled training data from the original source domain with the distribution of incoming data in a shifted domain, ACE synthesizes labeled training data for environments as it sees them. This stylized data is then used to update a segmentation model so that it performs well in new environments. To avoid forgetting knowledge from past environments, we introduce a memory that stores feature statistics from previously seen domains. These statistics can be used to replay images in any of the previously observed domains, thus preventing catastrophic forgetting. In addition to standard batch training using stochastic gradient decent (SGD), we also experiment with fast adaptation methods based on adaptive meta-learning. Extensive experiments are conducted on two datasets from SYNTHIA, the results demonstrate the effectiveness of the proposed approach when adapting to a number of tasks.</code></pre></div></div>
-
-<div id="ace_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{wu2019ace,
-  title={ACE: Adapting to Changing Environments for Semantic Segmentation},
-  author={Wu, Zuxuan and Wang, Xin and Gonzalez, Joseph E and Goldstein, Tom and Davis, Larry S},
-  booktitle={International Conference in Computer Vision (ICCV)},
-  month={October}
-  year={2019}
-}
-</code></pre></div></div>
-</div></div></div>
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/few-shot-detection-512.jpg' width='120px'> </div>  
-<div id="KangFew" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;Few-shot Object Detection via Feature Reweighting</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;Bingyi Kang, Zhuang Liu, <strong>Xin Wang</strong>, Fisher Yu, Jiashi Feng, Trevor Darrell</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;International Conference in Computer Vision (ICCV) 2019</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#kang_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#kang_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1812.01866">paper</a> 
-</div>
-
-<div class="cards"><div id="kang_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-This work aims to solve the challenging few-shot object detection problem where only a few annotated examples are available for each object category to train a detection model. Such an ability of learning to detect an object from just a few examples is common for human vision systems, but remains absent for computer vision systems. Though few-shot meta learning offers a promising solution technique, previous works mostly target the task of image classification and are not directly applicable for the much more complicated object detection task. In this work, we propose a novel meta-learning based model with carefully designed architecture, which consists of a meta-model and a base detection model. The base detection model is trained on several base classes with sufficient samples to offer basis features. The meta-model is trained to reweight importance of features from the base detection model over the input image and adapt these features to assist novel object detection from a few examples. The meta-model is light-weight, end-to-end trainable and able to entail the base model with detection ability for novel objects fast. Through experiments we demonstrated our model can outperform baselines by a large margin for few-shot object detection, on multiple datasets and settings. Our model also exhibits fast adaptation speed to novel few-shot classes.</code></pre></div></div>
-
-
-<div id="kang_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{kang2018few,
-  title={Few-shot Object Detection via Feature Reweighting},
-  author={Kang, Bingyi and Liu, Zhuang and Wang, Xin and Yu, Fisher and Feng, Jiashi and Darrell, Trevor},
-  booktitle={International Conference in Computer Vision (ICCV)},
-  month={October}
-  year={2019}
-}
-</code></pre></div></div>
-</div></div></div>
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/tafe.jpg' width='120px'> </div>                 
-<div id="Wang18" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;TAFE-Net: Task-Aware Feature Embeddings for Low Shot Learning</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;<strong>Xin Wang</strong>, Fisher Yu, Ruth Wang,  Trevor Darrell, Joseph E. Gonzalez</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;Conference on Computer Vision and Pattern Recognition (CVPR) 2019</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wang18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wang18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_TAFE-Net_Task-Aware_Feature_Embeddings_for_Low_Shot_Learning_CVPR_2019_paper.pdf">paper</a> 
-<a class="btn btn-primary btn-sm" href="https://github.com/ucbdrive/tafe-net">code</a> 
-</div>
-
-<div class="cards"><div id="Wang18_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Learning good feature embeddings for images often requires substantial training data. As a consequence, in settings where training data is limited (e.g., few-shot and zero-shot learning), we are typically forced to use a general feature embedding across prediction tasks. Ideally, we would like to construct feature embeddings that are tuned for the given task and even input image. In this work, we propose Task Aware Feature Embedding Networks (TAFE-Nets) to learn how to adapt the image representation to a new task in a meta learning fashion. Our network is composed of a meta learner and a prediction network, where the meta learner generates parameters for the feature layers in the prediction network based on a task input so that the feature embedding can be accurately adjusted for that task. We show that TAFE-Net is highly effective in generalizing to new tasks or concepts and evaluate the TAFE-Net on a range of benchmarks in zero-shot and few-shot learning. Our model matches or exceeds the state-of-the-art on all tasks. In particular, our approach improves the prediction accuracy of unseen attribute-object pairs by 4 to 15 points on the challenging visual attribute-object composition task. </code></pre></div></div>
-
-<div id="Wang18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{Wang_2019_CVPR,
-author = {Wang, Xin and Yu, Fisher and Wang, Ruth and Darrell, Trevor and Gonzalez, Joseph E.},
-title = {TAFE-Net: Task-Aware Feature Embeddings for Low Shot Learning},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2019}
-}
-</code></pre></div></div>
-</div></div></div>
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/accel.jpg' width='120px'> </div> 
-<div id="Jain18" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;Accel: A Corrective Fusion Network for Efficient Semantic Segmentation on Video</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;Samvit Jain, <strong>Xin Wang</strong>, Joseph E. Gonzalez</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;Conference on Computer Vision and Pattern Recognition (CVPR) 2019</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Jain18_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Accel_A_Corrective_Fusion_Network_for_Efficient_Semantic_Segmentation_on_CVPR_2019_paper.pdf">paper</a> 
-<a class="btn btn-primary btn-sm" href="https://github.com/SamvitJ/Accel">code</a> 
-</div>
-
-<div class="cards"><div id="Jain18_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-We present Accel, a novel semantic video segmentation system that achieves high accuracy at low inference cost by combining the predictions of two network branches: (1) a reference branch that extracts high-detail features on a reference keyframe, and warps these features forward using frame-to-frame optical flow estimates, and (2) an update branch that computes features of adjustable quality on the current frame, performing a temporal update at each video frame. The modularity of the update branch, where feature subnetworks of varying layer depth can be inserted (e.g. ResNet-18 to ResNet-101), enables operation over a new, state-of-the-art accuracy-throughput trade-off spectrum. Over this curve, Accel models achieve both higher accuracy and faster inference times than the closest comparable single-frame segmentation networks. In general, Accel significantly outperforms previous work on efficient semantic video segmentation, correcting warping-related error that compounds on datasets with complex dynamics. Accel is end-to-end trainable and highly modular: the reference network, the optical flow network, and the update network can each be selected independently, depending on application requirements, and then jointly fine-tuned. The result is a robust, general system for fast, high-accuracy semantic segmentation on video. </code></pre></div></div>
-
-<div id="Jain18_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{Jain_2019_CVPR,
-author = {Jain, Samvit and Wang, Xin and Gonzalez, Joseph E.},
-title = {Accel: A Corrective Fusion Network for Efficient Semantic Segmentation on Video},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2019}
-}
-</code></pre></div></div>
-</div></div></div>
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/deepmoe.jpg' width='120px'> </div> 
-<div id="Wang19" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;Deep Mixture of Experts via Shallow Embedding</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;<strong>Xin Wang</strong>, Fisher Yu, Lisa Dunlap, Yi-An Ma, Ruth Wang, Azalia Mirhoseini, Trevor Darrell, Joseph E. Gonzalez</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;Conference on Uncertainty in Artificial Intelligence (UAI) 2019</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wang19_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#Wang19_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/1806.01531">paper</a> 
-</div>
-
-<div class="cards"><div id="Wang19_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Larger networks generally have greater representational power at the cost of increased computational complexity. Sparsifying such networks has been an active area of research but has been generally limited to static regularization or dynamic approaches using reinforcement learning. We explore a mixture of experts (MoE) approach to deep dynamic routing, which activates certain experts in the network on a per-example basis. Our novel DeepMoE architecture increases the representational power of standard convolutional networks by adaptively sparsifying and recalibrating channel-wise features in each convolutional layer. We employ a multi-headed sparse gating network to determine the selection and scaling of channels for each input, leveraging exponential combinations of experts within a single convolutional network. Our proposed architecture is evaluated on four benchmark datasets and tasks, and we show that Deep-MoEs are able to achieve higher accuracy with lower computation than standard convolutional networks. </code></pre></div></div>
-
-<div id="Wang19_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{Wang_2019_UAI,
-author={Wang, Xin and Yu, Fisher and Dunlap, Lisa and Ma, Yi-An and Wang, Ruth and Mirhoseini, Azalia and Darrell, Trevor and Gonzalez, Joseph E},
-title={Deep mixture of experts via shallow embedding},
-booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
-month = {July},
-year={2019}
-}
-</code></pre></div></div>
-</div></div></div>
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/skipnet.jpg' width='120px'> </div> 
-<div id="WangSkipNet" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;SkipNet: Learning Dynamic Routing in Convolutional Networks</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;<strong>Xin Wang</strong>, Fisher Yu, Zi-Yi Dou,  Trevor Darrell, Joseph E. Gonzalez</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;European Conference on Computer Vision (ECCV) 2018</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#skipnet_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#skipnet_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Wang_SkipNet_Learning_Dynamic_ECCV_2018_paper.pdf">paper</a> 
-<a class="btn btn-primary btn-sm" href="https://github.com/ucbdrive/skipnet">code</a> 
-</div>
-
-<div class="cards"><div id="skipnet_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-While deeper convolutional networks are needed to achieve maximum accuracy in visual perception tasks, for many inputs shallower networks are sufficient. We exploit this observation by learning to skip convolutional layers on a per-input basis. We introduce SkipNet, a modified residual network, that uses a gating network to selectively skip convolutional blocks based on the activations of the previous layer. We formulate the dynamic skipping problem in the context of sequential decision making and propose a hybrid learning algorithm that combines supervised learning and reinforcement learning to address the challenges of non-differentiable skipping decisions. We show SkipNet reduces computation by 30-90% while preserving the accuracy of the original model on four benchmark datasets and outperforms the state-of-the-art dynamic networks and static compression methods. We also qualitatively evaluate the gating policy to reveal a relationship between image scale and saliency and the number of layers skipped.</code></pre></div></div>
-
-<div id="skipnet_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{Wang_2018_ECCV,
-author = {Wang, Xin and Yu, Fisher and Dou, Zi-Yi and Darrell, Trevor and Gonzalez, Joseph E.},
-title = {SkipNet: Learning Dynamic Routing in Convolutional Networks},
-booktitle = {The European Conference on Computer Vision (ECCV)},
-month = {September},
-year = {2018}
-}
-</code></pre></div></div>
-</div></div></div>
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/cascades.jpg' width='120px'> </div>
-<div id="WangIDK" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;IDK Cascades: Fast Deep Learning by Learning not to Overthink</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;<strong>Xin Wang</strong>, Yujia Luo, Daniel Crankshaw, Alexey Tumanov, Fisher Yu, Joseph E. Gonzalez</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;Conference on Uncertainty in Artificial Intelligence (UAI) 2018 </div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#idk_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#idk_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="http://auai.org/uai2018/proceedings/papers/212.pdf">paper</a> 
-</div>
-
-<div class="cards"><div id="idk_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Advances in deep learning have led to substantial increases in prediction accuracy but have been accompanied by increases in the cost of rendering predictions. We conjecture that fora majority of real-world inputs, the recent advances in deep learning have created models that effectively "overthink" on simple inputs. In this paper, we revisit the classic question of building model cascades that primarily leverage class asymmetry to reduce cost. We introduce the "I Don't Know"(IDK) prediction cascades framework, a general framework to systematically compose a set of pre-trained models to accelerate inference without a loss in prediction accuracy. We propose two search based methods for constructing cascades as well as a new cost-aware objective within this framework. The proposed IDK cascade framework can be easily adopted in the existing model serving systems without additional model re-training. We evaluate the proposed techniques on a range of benchmarks to demonstrate the effectiveness of the proposed framework.</code></pre></div></div>
-
-<div id="idk_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@InProceedings{Wang_2018_UAI,
-author={Wang, Xin and Luo, Yujia and Crankshaw, Daniel and Tumanov, Alexey and Yu, Fisher and Gonzalez, Joseph E},
-title={IDK Cascades: Fast Deep Learning by Learning not to Overthink},
-booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
-month = {July},
-year={2018}
-}
-</code></pre></div></div>
-</div></div></div>
-
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/clipper-logo.png' width='120px'> </div>
-<div id="Crankshaw" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;Clipper: A Low-Latency Online Prediction Serving System</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;Daniel Crankshaw, <strong>Xin Wang</strong>, Guilio Zhou, Michael J. Franklin, Joseph E. Gonzalez,  Ion Stoica</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;USENIX Symposium on Networked Systems Design and Implementation (NSDI) 2017</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#dan_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#dan_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/crankshaw">Presentation</a> 
-<a class="btn btn-primary btn-sm" href="https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf">paper</a> 
-<a class="btn btn-primary btn-sm" href="http://clipper.ai">documentation</a>
-<a class="btn btn-primary btn-sm" href="https://rise.cs.berkeley.edu/blog/a-short-history-of-prediction-serving-systems/">blog</a> 
-</div>
-
-<div class="cards"><div id="dan_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-Machine learning is being deployed in a growing number of applications which demand real-time, accurate, and robust predictions under heavy query load. However, most machine learning frameworks and systems only address model training and not deployment.
-In this paper, we introduce Clipper, a general-purpose low-latency prediction serving system. Interposing between end-user applications and a wide range of machine learning frameworks, Clipper introduces a modular architecture to simplify model deployment across frameworks and applications. Furthermore, by introducing caching, batching, and adaptive model selection techniques, Clipper reduces prediction latency and improves prediction throughput, accuracy, and robustness without modifying the underlying machine learning frameworks. We evaluate Clipper on four common machine learning benchmark datasets and demonstrate its ability to meet the latency, accuracy, and throughput demands of online serving applications. Finally, we compare Clipper to the Tensorflow Serving system and demonstrate that we are able to achieve comparable throughput and latency while enabling model composition and online learning to improve accuracy and render more robust predictions.</code></pre></div></div>
-
-<div id="dan_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@inproceedings {Crankshaw_2017_NSDI,
-author = {Daniel Crankshaw and Xin Wang and Guilio Zhou and Michael J. Franklin and Joseph E. Gonzalez and Ion Stoica},
-title = {Clipper: A Low-Latency Online Prediction Serving System},
-booktitle = {14th {USENIX} Symposium on Networked Systems Design and Implementation ({NSDI} 17)},
-year = {2017},
-isbn = {978-1-931971-37-9},
-address = {Boston, MA},
-pages = {613--627},
-url = {https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/crankshaw},
-publisher = {{USENIX} Association},
-}
-</code></pre></div></div>
-</div></div></div>
-
-<div class="paper"><div class="pimg" style="width:140px"> <img src='./asset/images/teasers/learnsys.jpg' width='120px'> </div>
-<div id="Crankshaw2" class="publication">
-<div class="summary"><div class="authors"></div>
-<div class="ptitle">&nbsp;&nbsp;&nbsp;Scalable Training and Serving of Personalized Models</div>
-<div class="pauthors">&nbsp;&nbsp;&nbsp;Daniel Crankshaw, <strong>Xin Wang</strong>, Joseph E. Gonzalez,  Michael J. Franklin</div>
-<div class="pvenue">&nbsp;&nbsp;&nbsp;LearningSys 2015</div><br/>
-&nbsp;&nbsp;&nbsp;
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#sys_bib" role="button" aria-expanded="false" aria-controls="CollapseBib">bibtex</a>
-<a class="btn btn-primary btn-sm" data-toggle="collapse" href="#sys_abs" role="button" aria-expanded="false" aria-controls="CollapseAbstract">abstract</a>
-<a class="btn btn-primary btn-sm" href="http://learningsys.org/papers/LearningSys_2015_paper_27.pdf">paper</a> 
-</div>
-
-<div class="cards"><div id="sys_abs" class="collapse abstract"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-The past decade has seen substantial growth in Learning Systems research combining advances in system design with new efficient algorithms to enable the training of complex models on vast amounts of data. As a consequence we have seen widespread adoption of machine learning techniques to address important real-world problems. While this work has been wildly successful in shaping both the machine learning and systems fields, it also ignores a big part of real-world machine learning. In particular, much of the work in Learning Systems has operated under the fiction: the world hands me a static, potentially very large, dataset and I train an accurate, potentially complex, model. This fiction departs from reality in two key regards that we begin to address in this work.</code></pre></div></div>
-
-<div id="sys_bib" class="collapse bibtex-entry"><div class="card card-body"><pre><code class="language-bib" data-lang="bib">
-@article{crankshaw2015scalable,
-  title={Scalable training and serving of personalized models},
-  author={Crankshaw, Daniel and Wang, Xin and Gonzalez, Joseph E and Franklin, Michael J}
-}
-</code></pre></div></div>
-</div></div></div>
-</div>
-
-<div id="services">
-<h3> Services </h3>
-<ul>
-<li> Co-organizer of ECCV 2020 <a href="https://sites.google.com/view/wicvworkshop-eccv2020/">workshop on Women in Computer Vision (WiCV)</a></li>
-<li> Co-organizer of ICML 2020 <a href="https://www.icml-hill.com/">workshop on Human In the Loop Learning (HILL)</a></li>
-<li> Co-organizer of ICML 2019 <a href="https://sites.google.com/view/hill2019/home">workshop on Human In the Loop Learning (HILL)</a></li>
-<li> Reviewer of Conference on Computer Vision and Pattern Recognition (CVPR) 2018, 2019, 2020</li>
-<li> Reviewer of Neural Information Processing Systems (NeurIPS) 2018, 2019 </li>
-<li> Reviewer of International Conference on Machine Learning (ICML) 2018</li>
-</ul>
-</div>
-
-<div id="work">
-<h3> Experience </h3>
-<ul>
-<li> Graduate Student Instructor, <a href="http://www.ds100.org/fa17/">DS100: Principles and Techniques of Data Science </a>at UC Berkeley, Fall 2017</li>
-<li> Applied Machine Learning Intern at Uber HQ, Summer 2016 </li>
-<li> Undergraduate Student Research in <a href="https://scholar.google.com/citations?user=vaILvxYAAAAJ&hl=en"> Prof. Bo Yuan</a>'s Lab, SJTU,  Fall 2014, Spring 2015</li>
-<li> Undergraduate Student Research at <a href="http://goldenberglab.ca/people.html">Computational Biology Group</a> with Prof. Anna Goldenberg, University of Toronto,  Fall 2013</li>
-</ul>
-</div>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="index.html" id="homeDropdown" aria-haspopup="true" aria-expanded="false">
+                  Home
+                </a> -->
+                <!-- <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                  <li><a class="dropdown-item" href="index.html#about">About</a></li>
+                  <li><a class="dropdown-item" href="index.html#news">News</a></li>
+                </ul> -->
+            <!-- </li> -->
+            <li class="nav-item">
+                <a class="nav-link active"
+                href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link "
+                href="students.html">Students</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link "
+                href="publication.html">Publications</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link "
+                   href="software.html">Software</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link " href="teaching.html">Teaching</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link "
+                   href="awards.html">Awards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="service.html">Services</a>
+            </li>
+        </ul>
     </div>
+</nav>
+
+    <div class="container">
+        <div class="row justify-content-center" id="about">
+            <div class="col-md-4">
+                <img src="assets/images/photo.jpg" class="img-thumbnail mx-auto d-block portrait_img"
+                    alt="Xin Wang">
+            </div>
+            <div class="col-md-4 flex align-items-center about_info">
+                <div>
+                    <h1>Xin Wang</h1>
+                    <h2>Ph.D. Candidate</h2>
+                    <h2>EECS, UC Berkeley</h2>
+                    <h2>xinw [at] eecs [.] berkeley [.] edu</h2>
+                    <br>
+                    <h2>2121 Berkeley Way West, <br> Berkeley, CA 94704</h2>
+                    <br>
+                    <h5>
+                        <a href="assets/Xin_CV.pdf" target="_blank">[CV]</a>
+                        <a href="https://scholar.google.com/citations?user=e9gUdKwAAAAJ&hl=en" target="_blank">[Google Scholar]</a>
+                        <a href="https://github.com/xinw1012" target="_blank">[Github]</a>
+                        <a href="https://www.linkedin.com/in/xin-wang-aa83a577/" target="_blank">[LinkedIn]</a>
+                        <a href="https://twitter.com/xinw_ai" target="_blank">[Twitter]</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="about_text">
+                    <p> I am Xin Wang, a Ph.D. student at UC Berkeley, working with 
+                        <a href="https://people.eecs.berkeley.edu/~jegonzal/"> Prof. Joseph E. Gonzalez</a> and 
+                        <a href="https://people.eecs.berkeley.edu/~trevor/"> Prof. Trevor Darrell</a>. 
+                        I am part of the <a href="http://bair.berkeley.edu/">BAIR Lab</a>, 
+                        <a href="https://rise.cs.berkeley.edu/"> RISE Lab</a>, and <a href="https://deepdrive.berkeley.edu/">BDD Lab</a>.  
+                        Prior to UC Berkeley, I obtained my B.S. degree in Computer Science from <a href="http://en.sjtu.edu.cn/"> Shanghai Jiao Tong University </a>. <br/>
+                    </p>
+                    <p> My research interest lies in computer vision and machine learning including few-shot learning, semi-/self-supervised learning, 
+                        continual learning, efficient inference, and model serving systems with various applications in autonomous driving and robotics.
+                    </p>
+                    </br>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="experience">
+            <div class="col-md-12">
+
+                <div class="section_header">Education</div>
+                
+                <div class="experience">
+                    <div class="exp_title_bold">
+                        University of California, Berkeley
+                    </div>
+                    <div class="exp_company">
+                        Ph.D. in Computer Science
+                    </div>
+                    <div class="exp_date_long">
+                        Aug 2015 - Present
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="exp_title_bold">
+                        Shanghai Jiao Tong University
+                    </div>
+                    <div class="exp_company">
+                        Bachelor of Computer Science, IEEE Pilot Class
+                    </div>
+                    <div class="exp_date_long">
+                        Sept 2011 - Jun 2015
+                    </div>
+                </div>
+
+                <!-- <div class="section_header">Professional Experience</div>
+                
+                <div class="experience">
+                    <div class="exp_title_bold">
+                        Title
+                    </div>
+                    <div class="exp_company">
+                        Company
+                    </div>
+                    <div class="exp_date_long">
+                        Year
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- <div class="row" id="news">
+            <div class="col-md-12">
+                <div class="section_header">Recent News</div>
+                <div class="experience">
+                    <div class="exp_title">
+                        date: Some Exciting News!
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/style.js"></script>
 </body>
+
 </html>
