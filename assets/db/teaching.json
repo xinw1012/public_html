@@ -1,0 +1,24 @@
+[
+    {
+        "title": "DS100: Principles and Techniques of Data Science",
+        "date": "Spring 2017",
+        "role": "Teaching Assistant", 
+       	"extlink": "http://www.ds100.org/fa17/",
+        "linktext": "Course"
+    },
+
+    {
+        "title": "2018-2019 Capstone Project of MEng in EECS",
+        "date": "Spring 2019",
+        "role": "Teaching Assistant"
+    },
+
+    {
+        "title": "CS294-162: AI-Sys Graduate Seminar",
+        "date": "Fall 2019",
+        "role": "Teaching Assistant", 
+       	"extlink": "https://ucbrise.github.io/cs294-ai-sys-fa19/",
+        "linktext": "Course"
+    }
+
+]
