@@ -1,5 +1,42 @@
 [
     {
-      "title": "date: Some Exciting News!"
+      "title": "11/2020: Selected as one of the rising stars in EECS 2020 by UC Berkeley.",
+      "linktext": "rising stars in EECS 2020",
+      "extlink": "https://eecs.berkeley.edu/rising-stars-2020"
+    },
+    {
+      "title": "08/2020: Co-orgnized the Women in Computer Vision (WiCV) workshop at ECCV 2020.",
+      "linktext": "Women in Computer Vision (WiCV)",
+      "extlink": "https://sites.google.com/view/wicv/"
+    },
+    {
+      "title": "07/2020: Presented our paper on Frustratingly Simple Few-Shot Object Detection at ICML 2020. We find a simple fine-tuning approach can outperform all the previous meta learning appraoches for few-shot object detection.",
+      "linktext": "Frustratingly Simple Few-Shot Object Detection",
+      "extlink": "https://proceedings.icml.cc/static/paper_files/icml/2020/2957-Paper.pdf"
+    },
+    {
+      "title": "07/2020: Co-organized the second Human in the Loop Learning (HILL) workshop at ICML 2020.",
+      "linktext": "Human in the Loop Learning (HILL)",
+      "extlink": "https://www.icml-hill.com/"
+    },
+    {
+      "title": "06/2020: Gave a keynote talk on Motion Understanding via Heterogenous Multitask Learning at the fifth BMTT MOT Challenge workshop at CVPR 2020.",
+      "linktext": "fifth BMTT MOT Challenge workshop",
+      "extlink": "https://motchallenge.net/workshops/bmtt2020/program.html"
+    },
+    {
+      "title": "06/2020: Presented our work on BDD100K, the largeset driving video dataset with a new benchmark of 10 heterogenous perception tasks, at CVPR 2020.",
+      "linktext": "BDD100K",
+      "extlink": "https://arxiv.org/pdf/1805.04687.pdf"
+    },
+    {
+      "title": "06/2020: Presented our work on ShapeProp, which utlizes an iterative message passsing method to propagate the saliency regions for semi-supervised instance segmentation, at CVPR 2020.",
+      "linktext": "ShapeProp",
+      "extlink": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_Learning_Saliency_Propagation_for_Semi-Supervised_Instance_Segmentation_CVPR_2020_paper.pdf"
+    },
+    {
+      "title": "02/2020: Gave an invited talk at Max Planck Institute for Informatics, Saarbrcken, Germany on Towards Human-Level Recognition and Generalization via Dynamic Representations.",
+      "linktext": "Max Planck Institute for Informatics",
+      "extlink": "https://www.mpi-inf.mpg.de/home"
     }
 ]

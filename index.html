@@ -30,19 +30,21 @@
         <!--<ul class="navbar-nav ml-auto">-->
         <ul class="navbar-nav mx-auto">
 
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="index.html" id="homeDropdown" aria-haspopup="true" aria-expanded="false">
                   Home
-                </a> -->
-                <!-- <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                </a> 
+                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
                   <li><a class="dropdown-item" href="index.html#about">About</a></li>
+                  <li><a class="dropdown-item" href="index.html#research">Research</a></li>
                   <li><a class="dropdown-item" href="index.html#news">News</a></li>
-                </ul> -->
-            <!-- </li> -->
-            <li class="nav-item">
+                  <li><a class="dropdown-item" href="index.html#experience">Experience</a></li>
+                </ul>
+            </li>
+            <!-- <li class="nav-item">
                 <a class="nav-link active"
                 href="index.html">Home</a>
-            </li>
+            </li> -->
             <!-- <li class="nav-item">
                 <a class="nav-link "
                 href="students.html">Students</a>
@@ -99,20 +101,90 @@
             <div class="col-md-12">
                 <div class="about_text">
                     <p> I am Xin Wang, a Ph.D. student at UC Berkeley, working with 
-                        <a href="https://people.eecs.berkeley.edu/~jegonzal/"> Prof. Joseph E. Gonzalez</a> and 
-                        <a href="https://people.eecs.berkeley.edu/~trevor/"> Prof. Trevor Darrell</a>. 
+                        <a href="https://people.eecs.berkeley.edu/~trevor/"> Prof. Trevor Darrell</a> and <a href="https://people.eecs.berkeley.edu/~jegonzal/"> Prof. Joseph E. Gonzalez</a>. 
                         I am part of the <a href="http://bair.berkeley.edu/">BAIR Lab</a>, 
                         <a href="https://rise.cs.berkeley.edu/"> RISE Lab</a>, and <a href="https://deepdrive.berkeley.edu/">BDD Lab</a>.  
                         Prior to UC Berkeley, I obtained my B.S. degree in Computer Science from <a href="http://en.sjtu.edu.cn/"> Shanghai Jiao Tong University </a>. <br/>
                     </p>
-                    <p> My research interest lies in computer vision and machine learning including few-shot learning, semi-/self-supervised learning, 
-                        continual learning, efficient inference, and model serving systems with various applications in autonomous driving and robotics.
+                    <p> My research interest lies at the intersection of computer vision, machine learning and learning systems. 
+                        I take a holistic view of intelligent systems, aiming to build vision systems that are adaptive, continual, 
+                        efficient and can operate in real-time. I describe the premise of next-generation visual intelligent systems as 
+                        solving the “last-mile delivery” problem of computer vision, which requires models capable of adapting to 
+                        the challenging application scenarios with limited data, annotation, and computation. 
                     </p>
                     <p><b>I'm currently on the faculty and industry research job market (2020-2021)! </b></p>
                     </br>
                 </div>
             </div>
         </div>
+        <div class="row" id="research">
+            <div class="col-md-12">
+                <div class="section_header">Research</div>
+                <div class="about_text">
+                    <p> As a Computer Vision researcher with a computer system emphasis, I work on a full stack solution to 
+                        build visual intelligent systems from <a href="https://bdd-data.berkeley.edu/">data collection</a> and <a href="https://www.scalabel.ai/">annotation</a>,
+                        algorithmic designs of adaptive models, to <a href="http://clipper.ai/">real-time model serving</a>.
+                        For model designs, I pioneer <b>dynamic neural networks</b> where the 
+                        network parameters and structures are dynamically determined by various test-time information, such as the input image itself
+                        or task descriptions. Such test-time adaptation approach bridges the gap between training and inference, allowing the models to continuously 
+                        learn and adapt to changing environments. For example, I propose <a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Wang_SkipNet_Learning_Dynamic_ECCV_2018_paper.pdf">SkipNet</a>,
+                        where the execution paths are dynamically decided on a per input basis to reduce inference cost while maintaining the full model capacity and accuracy. 
+                        Some other examples are constructing <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_TAFE-Net_Task-Aware_Feature_Embeddings_for_Low_Shot_Learning_CVPR_2019_paper.pdf">task-aware feature embeddings</a>
+                        through parameter generation and <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/2957-Paper.pdf">test-time fine-tuning</a> for few-shot image classification and object detection.    
+                        I also explore various paradigms for learning with fewer data and labels during training, such as <a href="https://arxiv.org/pdf/1904.06268.pdf">continual learning</a>, <a href="https://arxiv.org/pdf/1805.04687.pdf">heterogenous multi-task learning</a> and <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_Learning_Saliency_Propagation_for_Semi-Supervised_Instance_Segmentation_CVPR_2020_paper.pdf">weakly/semi-supervised learning</a>. 
+                        <br/>
+                    </p>
+                </div>
+        </div>
+    </div>
+
+    <div class="row" id="news">
+            <div class="col-md-12">
+                <div class="section_header">Recent News</div>
+                <div class="experience">
+                    <div class="exp_title">
+                        11/2020: Selected as one of the <a href="https://eecs.berkeley.edu/rising-stars-2020" target="_blank">rising stars in EECS 2020</a> by UC Berkeley.
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="exp_title">
+                        08/2020: Co-orgnized the <a href="https://sites.google.com/view/wicv/" target="_blank">Women in Computer Vision (WiCV)</a> workshop at ECCV 2020.
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="exp_title">
+                        07/2020: Presented our paper on <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/2957-Paper.pdf" target="_blank">Frustratingly Simple Few-Shot Object Detection</a> at ICML 2020. We find a simple fine-tuning approach can outperform all the previous meta learning appraoches for few-shot object detection.
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="exp_title">
+                        07/2020: Co-organized the second <a href="https://www.icml-hill.com/" target="_blank">Human in the Loop Learning (HILL)</a> workshop at ICML 2020.
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="exp_title">
+                        06/2020: Gave a keynote talk on Motion Understanding via Heterogenous Multitask Learning at the <a href="https://motchallenge.net/workshops/bmtt2020/program.html" target="_blank">fifth BMTT MOT Challenge workshop</a> at CVPR 2020.
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="exp_title">
+                        06/2020: Presented our work on <a href="https://arxiv.org/pdf/1805.04687.pdf" target="_blank">BDD100K</a>, the largeset driving video dataset with a new benchmark of 10 heterogenous perception tasks, at CVPR 2020.
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="exp_title">
+                        06/2020: Presented our work on <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_Learning_Saliency_Propagation_for_Semi-Supervised_Instance_Segmentation_CVPR_2020_paper.pdf" target="_blank">ShapeProp</a>, which utlizes an iterative message passsing method to propagate the saliency regions for semi-supervised instance segmentation, at CVPR 2020.
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="exp_title">
+                        02/2020: Gave an invited talk at <a href="https://www.mpi-inf.mpg.de/home" target="_blank">Max Planck Institute for Informatics</a>, Saarbrcken, Germany on Towards Human-Level Recognition and Generalization via Dynamic Representations.
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
         <div class="row" id="experience">
             <div class="col-md-12">
 
@@ -156,17 +228,6 @@
                 </div> -->
             </div>
         </div>
-        <!-- <div class="row" id="news">
-            <div class="col-md-12">
-                <div class="section_header">Recent News</div>
-                <div class="experience">
-                    <div class="exp_title">
-                        date: Some Exciting News!
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -52,20 +52,73 @@
             <div class="col-md-12">
                 <div class="about_text">
                     <p> I am Xin Wang, a Ph.D. student at UC Berkeley, working with 
-                        <a href="https://people.eecs.berkeley.edu/~jegonzal/"> Prof. Joseph E. Gonzalez</a> and 
-                        <a href="https://people.eecs.berkeley.edu/~trevor/"> Prof. Trevor Darrell</a>. 
+                        <a href="https://people.eecs.berkeley.edu/~trevor/"> Prof. Trevor Darrell</a> and <a href="https://people.eecs.berkeley.edu/~jegonzal/"> Prof. Joseph E. Gonzalez</a>. 
                         I am part of the <a href="http://bair.berkeley.edu/">BAIR Lab</a>, 
                         <a href="https://rise.cs.berkeley.edu/"> RISE Lab</a>, and <a href="https://deepdrive.berkeley.edu/">BDD Lab</a>.  
                         Prior to UC Berkeley, I obtained my B.S. degree in Computer Science from <a href="http://en.sjtu.edu.cn/"> Shanghai Jiao Tong University </a>. <br/>
                     </p>
-                    <p> My research interest lies in computer vision and machine learning including few-shot learning, semi-/self-supervised learning, 
-                        continual learning, efficient inference, and model serving systems with various applications in autonomous driving and robotics.
+                    <p> My research interest lies at the intersection of computer vision, machine learning and learning systems. 
+                        I take a holistic view of intelligent systems, aiming to build vision systems that are adaptive, continual, 
+                        efficient and can operate in real-time. I describe the premise of next-generation visual intelligent systems as 
+                        solving the “last-mile delivery” problem of computer vision, which requires models capable of adapting to 
+                        the challenging application scenarios with limited data, annotation, and computation. 
                     </p>
                     <p><b>I'm currently on the faculty and industry research job market (2020-2021)! </b></p>
                     </br>
                 </div>
             </div>
         </div>
+        <div class="row" id="research">
+            <div class="col-md-12">
+                <div class="section_header">Research</div>
+                <div class="about_text">
+                    <p> As a Computer Vision researcher with a computer system emphasis, I work on a full stack solution to 
+                        build visual intelligent systems from <a href="https://bdd-data.berkeley.edu/">data collection</a> and <a href="https://www.scalabel.ai/">annotation</a>,
+                        algorithmic designs of adaptive models, to <a href="http://clipper.ai/">real-time model serving</a>.
+                        For model designs, I pioneer <b>dynamic neural networks</b> where the 
+                        network parameters and structures are dynamically determined by various test-time information, such as the input image itself
+                        or task descriptions. Such test-time adaptation approach bridges the gap between training and inference, allowing the models to continuously 
+                        learn and adapt to changing environments. For example, I propose <a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Wang_SkipNet_Learning_Dynamic_ECCV_2018_paper.pdf">SkipNet</a>,
+                        where the execution paths are dynamically decided on a per input basis to reduce inference cost while maintaining the full model capacity and accuracy. 
+                        Some other examples are constructing <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_TAFE-Net_Task-Aware_Feature_Embeddings_for_Low_Shot_Learning_CVPR_2019_paper.pdf">task-aware feature embeddings</a>
+                        through parameter generation and <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/2957-Paper.pdf">test-time fine-tuning</a> for few-shot image classification and object detection.    
+                        I also explore various paradigms for learning with fewer data and labels during training, such as <a href="https://arxiv.org/pdf/1904.06268.pdf">continual learning</a>, <a href="https://arxiv.org/pdf/1805.04687.pdf">heterogenous multi-task learning</a> and <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_Learning_Saliency_Propagation_for_Semi-Supervised_Instance_Segmentation_CVPR_2020_paper.pdf">weakly/semi-supervised learning</a>. 
+                        <br/>
+                    </p>
+                </div>
+        </div>
+    </div>
+
+    <div class="row" id="news">
+            <div class="col-md-12">
+                {%- set max_news = 15 %}
+                <div class="section_header">Recent News</div>
+                {%- for new in news %}
+                {%- if loop.index < max_news %}
+                <div class="experience">
+                    <div class="exp_title">
+                        {% if 'extlink' in new.keys() -%}
+                        {%- autoescape false -%}
+                        {%- set old_string = new.linktext -%}
+                        {%- set new_string = "<a href=\"" + new.extlink + "\" target=\"_blank\">" + new.linktext + "</a>" -%}
+                        {{ new.title|string|replace(old_string, new_string) }}
+                        {%- endautoescape -%}
+                        {%- else -%}
+                        {{new.title}}
+                        {%- endif %}
+                    </div>
+                </div>
+                {%- endif %}
+                {%- endfor %}
+                {%- if news|length > max_news %}
+                <div id="news_more">
+                    <h5><a href="news.html">[more]</a></h5>
+                </div>
+                {%- endif %}
+            </div>
+    </div>
+
+
         <div class="row" id="experience">
             <div class="col-md-12">
 
@@ -100,35 +153,6 @@
                 {%- endfor %} -->
             </div>
         </div>
-        <!-- <div class="row" id="news">
-            <div class="col-md-12">
-                {%- set max_news = 15 %}
-                <div class="section_header">Recent News</div>
-                {%- for new in news %}
-                {%- if loop.index < max_news %}
-                <div class="experience">
-                    <div class="exp_title">
-                        {% if 'extlink' in new.keys() -%}
-                        {%- autoescape false -%}
-                        {%- set old_string = new.linktext -%}
-                        {%- set new_string = "<a href=\"" + new.extlink + "\" target=\"_blank\">" + new.linktext + "</a>" -%}
-                        {{ new.title|string|replace(old_string, new_string) }}
-                        {%- endautoescape -%}
-                        {%- else -%}
-                        {{new.title}}
-                        {%- endif %}
-                    </div>
-                </div>
-                {%- endif %}
-                {%- endfor %}
-                {%- if news|length > max_news %}
-                <div id="news_more">
-                    <h5><a href="news.html">[more]</a></h5>
-                </div>
-                {%- endif %}
-            </div>
-        </div> -->
-
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
