@@ -40,7 +40,7 @@
 
     {
 	    "title": "ACE: Adapting to Changing Environments for Semantic Segmentation",
-        "author": "Yanzhao Zhou, Xin Wang, Jianbin Jiao, Trevor Darrell, Fisher Yu",
+        "author": "Zuxuan Wu, Xin Wang, Joseph E. Gonzalez, Tom Goldstein, Larry S. Davis",
         "conference": "International Conference in Computer Vision (ICCV) 2019",
         "teaser": "assets/images/teasers/ace.png",
         "pdf": "https://arxiv.org/pdf/1904.06268.pdf"
