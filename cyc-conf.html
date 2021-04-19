@@ -118,7 +118,7 @@
 
 <html>
 <head>
-	<title>This is my paper title</title>
+	<title>cycle-confusion</title>
 	<meta property="og:image" content="Path to my teaser.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
 	<meta property="og:title" content="Creative and Descriptive Paper Title." />
 	<meta property="og:description" content="Paper description." />
@@ -138,37 +138,67 @@
 <body>
 	<br>
 	<center>
-		<span style="font-size:36px">Creative and Descriptive Paper Title</span>
+		<span style="font-size:36px">Robust Object Detection via <br/> Instance-Level Temporal Cycle Confusion</span>
 		<table align=center width=600px>
-			<table align=center width=600px>
+			<table align=center width=800px>
 				<tr>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">First Author</a></span>
+							<span style="font-size:20px"><a href="https://xinw.ai/">Xin Wang</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=200px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Second Author</a></span>
+							<span style="font-size:20px"><a href="https://thomasehuang.github.io/">Thomas E. Huang*</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Third Author</a></span>
+							<span style="font-size:20px"><a href="http://liubl1217.github.io/">Benlin Liu*</a></span>
+						</center>
+					</td>
+                    <td align=center width=120px>
+						<center>
+							<span style="font-size:20px"><a href="https://www.yf.io/">Fisher Yu</a></span>
+						</center>
+					</td>
+                    <td align=center width=200px>
+						<center>
+							<span style="font-size:20px"><a href="https://xiaolonw.github.io/">Xiaolong Wang</a></span>
+						</center>
+					</td> 
+                </tr>
+            </table>
+            <table align=center width=400px>
+                <tr>
+                    <td align=center width=200px>
+						<center>
+							<span style="font-size:20px"><a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph E. Gonzalez</a></span>
+						</center>
+					</td>
+                    <td align=center width=200px>
+						<center>
+							<span style="font-size:20px"><a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a></span>
 						</center>
 					</td>
 				</tr>
 			</table>
+            <!-- <p>*Equal contribution. The order is listed in alphabetical order.</p> -->
 			<table align=center width=250px>
 				<tr>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href=''>[Paper]</a></span>
+							<span style="font-size:20px"><a href=''>[Paper]</a></span>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>
+							<span style="font-size:20px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>
+						</center>
+					</td>
+                    <td align=center width=120px>
+						<center>
+							<span style="font-size:20px"><a href=''>[Bibtex]</a></span>
 						</center>
 					</td>
 				</tr>
@@ -176,7 +206,7 @@
 		</table>
 	</center>
 
-	<center>
+	<!-- <center>
 		<table align=center width=850px>
 			<tr>
 				<td width=260px>
@@ -193,36 +223,38 @@
 				</td>
 			</tr>
 		</table>
-	</center>
+	</center> -->
 
+    <hr>
+	<!-- <center><h1>Talk</h1></center> -->
+	<!-- <p align="center">
+		<iframe width="660" height="395" src="https://youtu.be/T2DT4TM8FiM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+	</p> -->
+    <p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T2DT4TM8FiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+
+	<table align=center width=800px>
+		<br>
+		<tr>
+			<center>
+				<span style="font-size:20px"><a href='https://drive.google.com/file/d/1Zx0fAfKKmzRXVFInjAvV1OpNAEN7dyI3/view?usp=sharing'>[Slides]</a>
+				</span>
+			</center>
+		</tr>
+	</table>
 	<hr>
 
 	<table align=center width=850px>
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				This is my abstract.
+Building reliable object detectors that are robust to domain shifts, such as various changes in context, viewpoint, and object appearances, is critical for real-world applications. In this work, we study the effectiveness of auxiliary self-supervised tasks to improve the out-of-distribution generalization of object detectors. Inspired by the principle of maximum entropy, we introduce a novel self-supervised task, instance-level cycle confusion (CycConf), which
+operates on the region features of the object detectors. For each object, the task is to find the most different object proposals in the adjacent frame in a video and then cycle back to itself for self-supervision. CycConf encourages the object detector to explore invariant structures across instances under various motions, which leads to improved model robustness in unseen domains at test time. We observe consistent out-of-domain performance improvements when training object detectors in tandem with self-supervised tasks on various domain adaptation benchmarks with static images (Cityscapes, Foggy Cityscapes, Sim10K) and large-scale video datasets (BDD100K and Waymo open data).
 			</td>
 		</tr>
 	</table>
 	<br>
-
-	<hr>
-	<center><h1>Talk</h1></center>
-	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
-	</p>
-
-	<table align=center width=800px>
-		<br>
-		<tr>
-			<center>
-				<span style="font-size:28px"><a href=''>[Slides]</a>
-				</span>
-			</center>
-		</tr>
-	</table>
-	<hr>
 
 	<center><h1>Code</h1></center>
 
@@ -238,12 +270,12 @@
 		<tr>
 			<td align=center width=400px>
 				<center>
-					<td><img class="round" style="width:450px" src="./cyc-conf-src/method_diagram.png"/></td>
+					<td><img class="round" style="width:450px" src="./cyc-conf-src/CycConf_arch.gif"/></td>
 				</center>
 			</td>
 		</tr>
 	</table>
-	<table align=center width=850px>
+	<!-- <table align=center width=850px>
 		<center>
 			<tr>
 				<td>
@@ -251,23 +283,23 @@
 				</td>
 			</tr>
 		</center>
-	</table>
+	</table> -->
 	<table align=center width=800px>
 		<br>
 		<tr><center>
-			<span style="font-size:28px">&nbsp;<a href='https://github.com/richzhang/webpage-template'>[GitHub]</a>
+			<span style="font-size:20px">&nbsp;<a href=''>[GitHub]</a>
 			</center>
 		</span>
 	</table>
 	<br>
 	<hr>
 	<table align=center width=450px>
-		<center><h1>Paper and Supplementary Material</h1></center>
+		<center><h1>Paper</h1></center>
 		<tr>
 			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./cyc-conf-src/paper.png"/></a></td>
-			<td><span style="font-size:14pt">F. Author, S. Author, T. Author.<br>
-				<b>Creative and Descriptive Paper Title.</b><br>
-				In Conference, 20XX.<br>
+			<td><span style="font-size:14pt">X. Wang, T. Huang*, B. Liu*, F. Yu, X. Wang, J. Gonzalez, T. Darrell.<br>
+				<b>Robust Object Detection via Instance-Level Temporal Cycle Confusion</b><br>
+				Preprint, 2021.<br>
 				(hosted on <a href="">ArXiv</a>)<br>
 				<!-- (<a href="./cyc-conf-src/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
