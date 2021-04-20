@@ -1,6 +1,8 @@
-@inproceedings{author20XXtitle,
-  title={Please cite me},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Conference},
-  year={20XX}
+@misc{wang2021robust,
+      title={Robust Object Detection via Instance-Level Temporal Cycle Confusion}, 
+      author={Xin Wang and Thomas E. Huang and Benlin Liu and Fisher Yu and Xiaolong Wang and Joseph E. Gonzalez and Trevor Darrell},
+      year={2021},
+      eprint={2104.08381},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
