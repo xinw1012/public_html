@@ -1,5 +1,13 @@
 [
     {
+	    "title": "Instance-Aware Predictive Navigation in Multi-Agent Environments",
+        "author": "Jinkun Cao, Xin Wang, Trevor Darrell, Fisher Yu",
+        "conference": "International Conference on Robotics and Automation (ICRA), 2021",
+        "teaser": "assets/images/teasers/ipc-512.jpeg",
+        "pdf": "https://arxiv.org/pdf/2101.05893.pdf",
+        "code": "https://github.com/SysCV/spc2"
+    },
+    {
 	    "title": "Frustratingly Simple Few-Shot Object Detection",
         "author": "Xin Wang*, Thomas E. Huang*, Trevor Darrell, Joseph E. Gonzalez, Fisher Yu",
         "conference": "International Conference on Machine Learning (ICML), 2020",
