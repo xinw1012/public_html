@@ -1,5 +1,45 @@
 [
     {
+	    "title": "DETReg: Unsupervised Pretraining with Region Priors for Object Detection",
+        "author": "Amir Bar, Xin Wang, Vadim Kantorov, Colorado J Reed, Roei Herzig, Gal Chechik, Anna Rohrbach, Trevor Darrell, Amir Globerson",
+        "conference": "Computer Vision and Pattern Recognition (CVPR), 2022",
+        "teaser": "assets/images/teasers/detreg.png",
+        "pdf": "https://arxiv.org/abs/2106.04550",
+        "code": "https://www.amirbar.net/detreg/"
+    },
+    {
+	    "title": "Robust Contrastive Learning against Noisy Views",
+        "author": "Ching-Yao Chuang, R Devon Hjelm, Xin Wang, Vibhav Vineet, Neel Joshi, Anotonio Torralba, Stefanie Jeglka, Yale Song",
+        "conference": "Computer Vision and Pattern Recognition (CVPR), 2022",
+        "teaser": "assets/images/teasers/rince.png",
+        "pdf": "https://arxiv.org/abs/2201.04309v1",
+        "code": "https://github.com/chingyaoc/RINCE"
+    },
+    {
+	    "title": "Unknown-Aware Object Detection: Learning What You Don’t Know from Videos in the Wild",
+        "author": "Xuefeng Du, Xin Wang, Gabriel Gozum, Yixuan Li",
+        "conference": "Computer Vision and Pattern Recognition (CVPR), 2022",
+        "teaser": "assets/images/teasers/stud.png",
+        "pdf": "",
+        "code": "https://github.com/deeplearning-wisc/stud"
+    },
+    {
+	    "title": "Robust Object Detection via Instance-Level Temporal Cycle Confusion",
+        "author": "Xin Wang, Thomas E. Huang*, Benlin Liu*, Fisher Yu, Xiaolong Wang, Joseph E. Gonzalez, Trevor Darrell",
+        "conference": "International Conference in Computer Vision (ICCV), 2021",
+        "teaser": "assets/images/teasers/cyc-conf.png",
+        "pdf": "https://arxiv.org/abs/2104.08381",
+        "code": "https://xinw.ai/cyc-conf"
+    }, 
+    {
+	    "title": "Wanderlust: Online Continual Object Detection in the Real World",
+        "author": "Jianren Wang, Xin Wang, Yue Shang-Guan, Abhinav Gupta",
+        "conference": "International Conference in Computer Vision (ICCV), 2021",
+        "teaser": "assets/images/teasers/wanderlust.png",
+        "pdf": "https://arxiv.org/pdf/2108.11005.pdf",
+        "code": "https://oakdata.github.io/"
+    },
+    {
 	    "title": "Instance-Aware Predictive Navigation in Multi-Agent Environments",
         "author": "Jinkun Cao, Xin Wang, Trevor Darrell, Fisher Yu",
         "conference": "International Conference on Robotics and Automation (ICRA), 2021",
