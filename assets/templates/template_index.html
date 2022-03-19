@@ -135,7 +135,7 @@
 
     <div class="row" id="news">
             <div class="col-md-12">
-                {%- set max_news = 15 %}
+                {%- set max_news = 10%}
                 <div class="section_header">Recent News</div>
                 {%- for new in news %}
                 {%- if loop.index < max_news %}
@@ -181,7 +181,7 @@
                 </div>
                 {%- endfor %}
 
-                <!-- <div class="section_header">Professional Experience</div>
+                <div class="section_header">Professional Experience</div>
                 {% for job in jobs %}
                 <div class="experience">
                     <div class="exp_title_bold">
@@ -194,7 +194,7 @@
                         {{job.date}}
                     </div>
                 </div>
-                {%- endfor %} -->
+                {%- endfor %}
             </div>
         </div>
     </div>
