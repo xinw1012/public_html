@@ -1,5 +1,13 @@
 [
     {
+	    "title": "Visual Attention Emerges from Recurrent Sparse Reconstruction",
+        "author": "Baifeng Shi, Yale Song, Neel Joshi, Trevor Darrell, Xin Wang",
+        "conference": "International Conference on Machine Learning (ICML), 2022",
+        "teaser": "assets/images/teasers/VARS.png",
+        "pdf": "https://arxiv.org/abs/2204.10962",
+        "code": "https://github.com/bfshi/VARS"
+    },
+    {
 	    "title": "DETReg: Unsupervised Pretraining with Region Priors for Object Detection",
         "author": "Amir Bar, Xin Wang, Vadim Kantorov, Colorado J Reed, Roei Herzig, Gal Chechik, Anna Rohrbach, Trevor Darrell, Amir Globerson",
         "conference": "Computer Vision and Pattern Recognition (CVPR), 2022",

@@ -1,5 +1,10 @@
 [
   {
+    "title": "05/2022: Our work, VARS, a new visual attention formulation, accepted at ICML 2022.",
+    "linktext": "VARS",
+    "extlink": "https://xinw.ai/publication.html"
+  },
+  {
     "title": "03/2022: 3 papers on robust contrastive learning, unsupervised pretraining and OOD detection accepted at CVPR 2022.",
     "linktext": "robust contrastive learning, unsupervised pretraining and OOD detection",
     "extlink": "https://xinw.ai/publication.html"
