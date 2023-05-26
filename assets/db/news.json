@@ -1,5 +1,15 @@
 [
   {
+    "title": "05/25/2023: Releasing our third paper TOAST in the Top-Down Attention series of work. A flexible tuning method that surpass full fine-tuning for adapting LLMs and large vision models! ",
+    "linktext": "TOAST",
+    "extlink": "https://arxiv.org/abs/2305.15542"
+  },
+  {
+    "title": "05/25/2023: Introducing Gorilla, which teaches LLMs for API calls. Your open-sourced, one-stop API marketplace. Join the discord community!",
+    "linktext": "Gorilla",
+    "extlink": "https://gorilla.cs.berkeley.edu/"
+  },
+  {
     "title": "05/2022: Our work, VARS, a new visual attention formulation, accepted at ICML 2022.",
     "linktext": "VARS",
     "extlink": "https://xinw.ai/publication.html"
